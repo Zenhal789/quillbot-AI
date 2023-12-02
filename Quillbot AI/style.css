@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kdam+Thmor+Pro&family=Montserrat:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@200&family=Kdam+Thmor+Pro&family=Montserrat:wght@300&family=Oswald&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #000 !important;
+}
+.navbar, .offcanvas-body, .offcanvas-header{
+    background-color: black;
+}
+.ri-menu-line{
+    color: goldenrod ;
+}
+.para{
+    color: goldenrod;
+    margin-left: -70px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.nav-link{
+    color: goldenrod !important;
+    font-family: "Montserrat";
+
+}
+.ri-vip-diamond-fill{
+    color: blueviolet;
+}
+.ri-chrome-fill{
+    color: darkgrey;
+}
+.ri-file-word-2-fill{
+    color: steelblue;
+}
+.ri-macbook-line{
+    color: green;
+}
+.ri-question-fill, .ri-mail-fill{
+    color: papayawhip;
+}
+.ri-translate{
+    color: darkcyan;
+}
+.ri-double-quotes-r{
+    color: sienna;
+}
+.textsection{
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+}
+.textsection h2{
+    font-family: "Montserrat";
+}
+.textsection p{
+    padding: 0 300px 0 300px;
+    line-height: 23px;
+    color: #d2d2d2;
+    font-family: 'Inter', sans-serif;
+}
+
+.textsection2{
+    color: white;
+    text-align: center;
+    font-family: "Montserrat";
+
+}
+.textsection2 p{
+    color: #d2d2d2;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.leftsection h4, .leftsection h3, .leftsection p{
+    text-align: left;
+}
+#leftsection h3{
+    color: white !important;
+    font-family: "Montserrat";
+
+}
+#leftsection p{
+    color: #d2d2d2 !important;
+    font-family: 'Inter', sans-serif;
+}
+.flexcontent{
+    display: flex;
+}
+.rightsection, #rightsection , #leftsection, .leftpart, .rightpart{
+    padding: 0 30px;
+}
+.imgsynonym{
+    width: 100%;
+    border-radius: 15px;
+}
+.leftsection h4, #leftsection h4, .rightpart h4{
+    font-weight: bold;
+    color: goldenrod;
+    font-family: "Montserrat";
+}
+.rightpart h3, .heading{
+    color: white !important;
+    font-family: "Montserrat";
+}
+.rightpart p{
+    color: #d2d2d2 !important;
+    font-family: 'Inter', sans-serif;
+}
+.left p{
+    color: #d2d2d2 !important;
+    font-family: 'Inter', sans-serif;
+}
+.textsection3, .textsection4, .textsection5{
+    display: flex;
+}
+#leftsection h3, #leftsection p, .rightpart h3, .rightpart p{
+    color: goldenrod;
+}
+.textsection6 h3, .cardsection h3{
+    color: white !important;
+    font-family: "Montserrat";
+}
+.textsection6 p{
+    color: #d2d2d2 !important;
+    font-family: 'Inter', sans-serif;
+}
+.leftpart{
+    width: 180%;
+}
+.icon{
+    width: 10%;
+    margin-top: -5px;
+}
+.rightpart button{
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    height: 45px;
+    border: 1px solid white;
+    font-family: "Montserrat";
+
+
+}
+
+.line{
+    border: 1px solid white;
+    width: 90%;
+    margin-left: 28px;
+}
+.heading{
+    color: goldenrod;
+    text-align: center;
+}
+.left{
+    padding: 0 120px;
+}
+.left p{
+    color: goldenrod;
+}
+.right table{
+    color: goldenrod;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+table tr{
+    height: 40px;
+}
+.left{
+    width: 50%;
+}
+.textsection6{
+    text-align: center;
+    color: goldenrod;
+}
+.flexsection{
+    display: flex;
+    justify-content: center;
+}
+.flex1{
+    display: flex;
+    gap: 90px;
+}
+
+
+.circle-container{
+    width: 150px;
+    height: 150px;
+    background: #E1E1E1;
+    border-radius: 50%;
+  }
+  
+  .circle-container .circle .item,
+  .circle-container .circle .fill{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-container .circle .item{
+    clip: rect(0px, 150px, 150px, 64px);
+  }
+  
+  .circle-container .circle .item .fill{
+    clip: rect(0px, 64px, 150px, 0px);
+    background-color: goldenrod;
+  }
+  
+  .circle-container .circle .item.layer-1,
+  .circle-container .circle .fill{
+    transform: rotate(126deg);
+    animation: fill ease-in-out 3s;
+  }
+
+
+
+
+  #circle-container{
+    width: 150px;
+    height: 150px;
+    background: #E1E1E1;
+    border-radius: 50%;
+  }
+  
+  #circle-container .circle .item,
+  #circle-container .circle .fill{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  #circle-container .circle .item{
+    clip: rect(0px, 150px, 150px, 64px);
+  }
+  
+  #circle-container .circle .item .fill{
+    clip: rect(0px, 158px, 154px, 0px);
+    background-color: goldenrod;
+  }
+  
+  #circle-container .circle .item.layer-1,
+  #circle-container .circle .fill{
+    transform: rotate(164deg);
+    animation: fill ease-in-out 3s;
+  }
+  
+
+
+
+  #circle-container1{
+    width: 150px;
+    height: 150px;
+    background: #E1E1E1;
+    border-radius: 50%;
+  }
+  
+  #circle-container1 .circle .item,
+  #circle-container1 .circle .fill{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  #circle-container1 .circle .item{
+    clip: rect(0px, 150px, 150px, 64px);
+  }
+  
+  #circle-container1 .circle .item .fill{
+    clip: rect(0px, 158px, 154px, 0px);
+    background-color: goldenrod;
+  }
+  
+  #circle-container1 .circle .item.layer-1,
+  #circle-container1 .circle .fill{
+    transform: rotate(164deg);
+    animation: fill ease-in-out 3s;
+  }
+  
+
+  
+  @keyframes fill {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(126deg);
+    }
+  }
+  
+  .inside-content{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 19px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cardsection h3{
+    color: goldenrod;
+    text-align: center;
+}
+.card-title{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #000;
+}
+.row{
+    width: 100%;
+    padding: 0 30px;
+
+}
+.card-text{
+    padding: 0 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.footersection li, .footer2 li, .footer3 li, .footer4 li, .footer5 li, .footer6 li{
+    color: goldenrod;
+    list-style-type: none;
+    line-height: 30px;
+    font-family: "Montserrat";
+}
+.footersection li a, .footer2 li a, .footer3 li a, .footer4 li a, .footer5 li a, .footer6 li a{
+    text-decoration: none;
+    color: #d2d2d2;
+    font-family: "Montserrat";
+
+}
+footer{
+    display: flex;
+    gap: 40px;
+}
+.block{
+    display: flex;
+    gap: 20px;
+}
+.ri-linkedin-box-fill, .ri-facebook-box-fill, .ri-twitter-fill, .ri-instagram-line{
+    font-size: x-large;
+}
+.endsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-family: "Montserrat";
+}
+.quillright a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.quill p{
+    color: goldenrod;
+}
+@media(max-width:768px){
+    .textsection p{
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .textsection2 h2{
+        padding: 0 50px;
+    }
+    .flexcontent, .textsection3, .textsection4, .textsection5, .flex1{
+        display: block;
+    }
+    .leftsection h4, .leftsection h3, .leftsection p, #leftsection h4, #leftsection h3, #leftsection p, .leftpart, .rightpart{
+        text-align: center;
+    }
+    .leftsection p{
+        padding: 0 30px;
+    }
+    .img{
+        width: 10%;
+    }
+    .leftpart{
+        width: 100%;
+    }
+    .icon{
+        width: 10%;
+    }
+    .rightpart button{
+        width: 100%;
+        height: 65px;
+    }
+    .line{
+    width: 86%;
+    }
+    .left{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .left p{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        padding: 0 20px 0 20px;
+    }
+    .right table{
+        width: 100%;
+        font-size: small;
+    }
+    table tr{
+    height: 70px;
+    }
+    .textsection6 h3{
+        padding: 0 30px;
+    }
+    .textsection6 p{
+        padding: 0 50px;
+    }
+    .card-text{
+        padding: 0 30px;
+    }
+    .row{
+        padding: 0 0 0 26px;
+    }
+    footer, .endsection{
+        display: block;
+    }
+    .para {
+        color: goldenrod;
+        margin-left: -30px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+        font-size: medium;
+}
+svg{
+    height: 22px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:1024px){
+    .textsection h2{
+        padding: 0 50px 0 50px;
+    }
+    .textsection p{
+        width: 100%;
+        padding: 0 200px 0 200px;
+    }
+    .leftpart{
+        width: 150%;
+    }
+    .img{
+        width: 8%;
+    }
+    .rightpart button{
+        width: 250px;
+    }
+    .right table{
+        width: 120%;
+    }
+    .endsection{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+  
+}
